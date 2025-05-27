@@ -22,7 +22,7 @@ body {
 
 main {
     position: relative;
-    height: 100vh;
+    height: 71vh;
 }
 
 section#telefone{
@@ -30,10 +30,18 @@ section#telefone{
     top: 50%;
     left: 50%;
 
-    transform: translate(-50%, -50%);
-    height: 627px;
-    width: 311px;
-    background-image: url('../imagens/frame-iphone.png');
+    transform: translate(-50%, -35%);
+    height: 551px;
+    width: 271px;
+    background-image: url('../imagens/frame-iphone-p.png');
     background-repeat: no-repeat;
     background-attachment: cover;
+}
+
+iframe#tela {
+    position: relative;
+    top: 70px;
+    left: 19px;
+    height: 415px;
+    width: 237px;
 }
